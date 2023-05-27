@@ -1,0 +1,17 @@
+{
+    "name": "newswire",
+    "version": "1.0.0",
+    "description": "A simple news application",
+    "main": "./server/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "cd ./server && node index.js"
+    },
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "mongoose": "^7.0.5"
+    }
+  }
